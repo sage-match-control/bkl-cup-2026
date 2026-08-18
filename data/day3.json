@@ -1,7 +1,7 @@
 {
   "day": "day3",
   "label": "Day 2 · Aug 16",
-  "generatedAt": "2026-08-18T03:22:50.804Z",
+  "generatedAt": "2026-08-18T03:48:27.911Z",
   "facilities": [
     {
       "name": "Main",
@@ -13,7 +13,7 @@
       "name": "Annex",
       "matchesCsv": "matchNumber,court,Schedule,CourtAssignment,teamCode1,team1Player1,team1Player2,team1Score,v,teamCode2,team2Player1,team2Player2,team2Score",
       "standingsCsv": "teamCode,player1,player2,wins,loss,quotient,bracket",
-      "syncedAt": "2026-08-18T03:22:06.491Z"
+      "syncedAt": "2026-08-18T03:48:27.911Z"
     },
     {
       "name": "Dreamcourts",
@@ -22,6 +22,12 @@
       "syncedAt": "2026-08-18T03:22:50.804Z"
     }
   ],
-  "failedFacilities": [],
-  "staleFacilities": []
+  "failedFacilities": [
+    "Main: Main: timed out",
+    "Dreamcourts: Dreamcourts: timed out"
+  ],
+  "staleFacilities": [
+    "Main",
+    "Dreamcourts"
+  ]
 }
